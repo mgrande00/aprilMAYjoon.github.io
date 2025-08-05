@@ -1,1 +1,120 @@
-hello 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glow by Grande</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #ffb6c1;
+      color: white;
+      padding: 2rem 0;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .intro, .services {
+      margin-bottom: 3rem;
+    }
+
+    .intro h2, .services h2 {
+      font-size: 2rem;
+      color: #e91e63;
+      margin-bottom: 1rem;
+    }
+
+    .services ul {
+      list-style: none;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .services li {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
+    }
+
+    .services li:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Glow by Grande</h1>
+    <p>Modern beauty with a sustainable touch</p>
+  </header>
+
+  <div class="container">
+    <section class="intro">
+      <h2>About Us</h2>
+      <p>Glow by Grande is a Mexican-American owned beauty brand that celebrates diverse beauty through eco-conscious makeup. We’re passionate about cruelty-free cosmetics that empower confidence and creativity in every face we touch.</p>
+    </section>
+
+    <section class="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>
+          <strong>Makeup Consultations</strong>
+          <p>Get personalized recommendations based on your skin tone, preferences, and lifestyle.</p>
+        </li>
+        <li>
+          <strong>Event Makeup</strong>
+          <p>Stunning looks for weddings, parties, and special occasions using clean beauty products.</p>
+        </li>
+        <li>
+          <strong>Eco-Friendly Product Line</strong>
+          <p>Shop our signature line of vegan, cruelty-free makeup developed with sustainability in mind.</p>
+        </li>
+        <li>
+          <strong>Workshops & Tutorials</strong>
+          <p>Learn to master makeup techniques in a fun and supportive environment, both online and in person.</p>
+        </li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Glow by Grande. All rights reserved.</p>
+  </footer>
+</body>
+</html>
