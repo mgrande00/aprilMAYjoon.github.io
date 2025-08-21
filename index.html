@@ -421,3 +421,63 @@
     filter: brightness(1.05);
   }
 </style>
+
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>&copy; 2025 SpringThirty</p>
+    <nav class="footer-nav">
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Service</a>
+    </nav>
+  </div>
+</footer>
+
+<style>
+  :root {
+    --bg: #0f172a;
+    --accent: #22c55e;
+    --accent-2: #16a34a;
+    --text: #e6f7ec;
+  }
+
+  .footer {
+    background: var(--bg);
+    padding: 2rem 1rem;
+    border-top: 1px solid rgba(255,255,255,.15);
+  }
+
+  .footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer p {
+    margin: 0 0 1rem 0;
+    color: var(--text);
+    font-size: 0.95rem;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-nav a {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: color .2s ease;
+  }
+
+  .footer-nav a:hover {
+    color: var(--accent-2);
+    text-decoration: underline;
+  }
+</style>
